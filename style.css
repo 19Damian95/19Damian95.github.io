@@ -94,7 +94,6 @@ a{
         justify-content: center;
         margin: .14rem .5rem;
         font-size: .7rem;
-        border: 2px solid black;
     }
     .main-paragraph img{
         left: 0;
@@ -454,6 +453,8 @@ a{
     @media(min-width:360px){
         .main-paragraph{
             width: 12rem;
+            border: 2px solid black;
+
         }
         .description img{
             width: 3rem;
