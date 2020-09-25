@@ -87,6 +87,7 @@ a{
         border-radius: 1rem;
         background-color:#e2eaed;
         overflow: hidden;
+        margin: 0;
     }
     .main-paragraph p{
         display: flex;
@@ -94,6 +95,7 @@ a{
         justify-content: center;
         margin: .14rem .5rem;
         font-size: .7rem;
+        border: 2px solid black;
     }
     .main-paragraph img{
         left: 0;
