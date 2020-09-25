@@ -451,10 +451,9 @@ a{
     }
 }
     @media(min-width:360px){
-        .main-paragraph{
-            width: 12rem;
+        .main-paragraph p{
+            width: unset;
             border: 2px solid black;
-
         }
         .description img{
             width: 3rem;
