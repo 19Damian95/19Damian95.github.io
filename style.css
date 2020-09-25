@@ -101,7 +101,12 @@ a{
         border-radius: 4rem;
         width: 1.5rem;
     }
+    .main-text{
+        display: flex;
+        flex-wrap: wrap;
+    }
     .main-text h1{
+        justify-self: flex-start;
         margin: 1rem 0;
         font-size: 1.5rem;
     }
@@ -451,10 +456,7 @@ a{
     }
 }
     @media(min-width:360px){
-        .main-paragraph{
-            /* width: 12rem; */
-            
-        }
+      
         .description img{
             width: 3rem;
         }
@@ -523,7 +525,8 @@ a{
         }
 
         .main-paragraph {
-            width: 11rem;
+            justify-self: flex-start;
+            display: flex;
         }
         .choose-app-description{
             display: flex;
@@ -955,8 +958,15 @@ a{
     header main{
         margin-top: 6rem;
     }
+    .main-paragraph {
+        width: 12rem;
+    }
     .main-paragraph p{
         font-size: .61rem;
+    }
+    .main-text{
+        display: block;
+    
     }
     header main .main-text{
         padding: 0;
@@ -1065,7 +1075,9 @@ a{
         .phone-img img{
             width:15rem;
         }
-
+        .main-paragraph {
+            width: 12rem;
+        }
     
         header main{
             margin-right: 7rem;
@@ -1150,6 +1162,10 @@ a{
     .jackpots-description .description img{
         width: 3rem;
     }
+    .main-text{
+        display: block;
+    
+    }
     .jackpots-description .description {
       padding: 0;
     }
@@ -1232,6 +1248,10 @@ a{
     }
     header main{
         margin-top: 5rem;
+    }
+    .main-text{
+        display: block;
+    
     }
 }
 @media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
