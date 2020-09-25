@@ -451,9 +451,9 @@ a{
     }
 }
     @media(min-width:360px){
-        .main-paragraph p{
+        .main-paragraph{
             /* width: 12rem; */
-            font-size: .2rem;
+            
         }
         .description img{
             width: 3rem;
