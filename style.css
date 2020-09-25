@@ -1050,95 +1050,95 @@ a{
             padding: 0 ;
         }
 }
-@media (min-width: 830px){
-    html{
-      font-size:16px;
-    }
-    header nav{
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-    header main{
-        margin-top: 5rem;
-    }
-    .phone-img img{
-        width:15rem;
-    }
+    @media (min-width: 830px){
+        html{
+        font-size:1124px;
+        }
+        header nav{
+            padding-left: 5rem;
+            padding-right: 3rem;
+        }
+        header main{
+            margin-top: 5rem;
+        }
+        .phone-img img{
+            width:15rem;
+        }
 
- 
-    header main{
-        margin-right: 7rem;
-        margin-left: 5rem;
-    }
-    header .main-text{
-        margin-top: 6rem;
-        margin-right: 2rem;
-        padding: 0;
-    }
-    header .main-text h1{
-        font-size: 1.8rem;
-    }
-    header .main-text p{
-        font-size: .6rem;
-        padding-right: 5rem;
-    }
-    header .main-text .main-paragraph p{
-        font-size: .6rem;
-        padding-right: 0;
+    
+        header main{
+            margin-right: 7rem;
+            margin-left: 5rem;
+        }
+        header .main-text{
+            margin-top: 6rem;
+            margin-right: 2rem;
+            padding: 0;
+        }
+        header .main-text h1{
+            font-size: 1.8rem;
+        }
+        header .main-text p{
+            font-size: .6rem;
+            padding-right: 5rem;
+        }
+        header .main-text .main-paragraph p{
+            font-size: .6rem;
+            padding-right: 0;
 
+        }
+        header .main-text .main-nav p{
+            font-size: .6rem;
+            padding-right: 0;
+        }
+        .jackpots-description .description img{
+            width: 3rem;
+        }
+        .jackpots-description .description p{
+            font-size: .6rem;
+        }
+        .jackpots-header h2, .jackpots-header p{
+            padding:  0 4rem;
+        }
+        .designed-beauty img{
+            width: 25rem;
+        }
+        .designed-beauty .main-text{
+            padding-top: 6rem;
+        }
+        .designed-beauty .main-text h2{
+            padding-right: 3rem;
+            padding-top: 0;
+        }
+        .ultimate-features{
+            padding-left:  7rem;
+        }
+        .ultimate-features h2{
+            font-size: 1.3rem;
+        }
+        .pricing-annually-month{
+            padding: 0 7rem;
+        }
+        .testimonila-main{
+            padding: 0 2rem;
+        }
+        .testimonila{
+            padding-right: 6rem;
+        }
+        button{
+        font-size: .5rem;
+        }
+        .faq{
+            padding: 0 6rem;
+        }
+        .download-app{
+            padding-top: 1rem;
+            padding-right: 5rem;
+            padding-left: 5rem;
+        } 
+    
+    
     }
-    header .main-text .main-nav p{
-        font-size: .6rem;
-        padding-right: 0;
-    }
-    .jackpots-description .description img{
-        width: 3rem;
-    }
-    .jackpots-description .description p{
-        font-size: .6rem;
-    }
-    .jackpots-header h2, .jackpots-header p{
-        padding:  0 4rem;
-    }
-    .designed-beauty img{
-        width: 25rem;
-    }
-    .designed-beauty .main-text{
-        padding-top: 6rem;
-    }
-    .designed-beauty .main-text h2{
-        padding-right: 3rem;
-        padding-top: 0;
-    }
-    .ultimate-features{
-        padding-left:  7rem;
-    }
-    .ultimate-features h2{
-        font-size: 1.3rem;
-    }
-    .pricing-annually-month{
-        padding: 0 7rem;
-    }
-    .testimonila-main{
-        padding: 0 2rem;
-    }
-    .testimonila{
-        padding-right: 6rem;
-    }
-    button{
-      font-size: .5rem;
-    }
-    .faq{
-        padding: 0 6rem;
-    }
-    .download-app{
-        padding-top: 1rem;
-        padding-right: 5rem;
-        padding-left: 5rem;
-    } 
-   
-   
-}
 @media only screen and (min-device-width: 1000px) and (-webkit-min-device-pixel-ratio: 2) {
     html{
       font-size:22px;
@@ -1159,14 +1159,7 @@ a{
    
 }
 
-@media(min-width:1200px){
-    html{
-      font-size:20px;
-    }
-    header main{
-        margin-top: 5rem;
-    }
-}
+
 
 
 @media only screen and (min-device-width: 1000px) and (-webkit-min-device-pixel-ratio: 2) and (orientation:portrait) {
@@ -1232,6 +1225,14 @@ a{
           padding-left: 3rem;
       }
 }
+@media(min-width:1200px){
+    html{
+      font-size:25px;
+    }
+    header main{
+        margin-top: 5rem;
+    }
+}
 @media only screen and (min-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 2) {
 html{
       font-size:32px;
@@ -1240,6 +1241,9 @@ html{
         margin-top: 7rem;
         margin-right: 1rem;
         margin-left: 1rem;
+    }
+    header main .phone-img img{
+        width: 12rem;
     }
     .download-app{
         padding-right: 5rem;
@@ -1335,4 +1339,84 @@ html{
 
 }
 
+@media(min-width:1400px){
+    html{
+      font-size:30px;
+    }
+    header main{
+        margin-top: 3rem;
+        margin-right: 0rem;
+    }
+    header main{
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+    header main .main-text{
+        padding-right: 11rem;
+        margin-top: 6.5rem;
+    }
+   
+    .features-phone-img{
+        margin-right: 2rem;   
+     }
+    .features-phone-img img{
+        
+        width: 18rem;
+    }
+  
+    .features-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .features-description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .features-description .description{
+        width: 60%;
+    }
+    .jackpots-description{
+        padding: 0 6rem;
+    }
+  
+    .jackpots-description .description h5{
+        font-size: .8rem;
+    }
+
+    .jackpots-description .description p{
+        font-size: .7rem;
+    }
+    .jackpots-description .description img
+{
+    width: 7rem;
+}
+.designed-img img{
+    width: 32rem;
+}
+.choose-app{
+    padding: 0 12rem;
+}
+.designed-beauty-header .main-text{
+    padding-right: 2rem;
+}
+.choose-app-description .description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.choose-app-description .description img{
+    width: 2rem;
+}
+.choose-app-description .description h5{
+    margin: 1rem 0
+}
+.ultimate-features .img-phone img{
+    margin-right: 5rem;
+}
+.ultimate-features .img-phone img{
+    width: 20rem;
+}   
+}
 
