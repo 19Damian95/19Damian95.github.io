@@ -18,10 +18,14 @@ a{
 .faq .question-active~p{
     display: block;
 }
+.faq main li p{
+    display: none;
+}
 @media(min-width:320px){
     html{
         font-size: 20px;
     }
+  
     section, footer{
         padding: 1rem 2rem;
     }
@@ -370,8 +374,16 @@ a{
         width: 100%;
         position: relative;
     }
+    .asked-questions-li-header h4{
+        width: 90%
+    }
+    .asked-questions-li-header .plus{
+        width: 10%;
+        
+    }
+    
     .plus{
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-weight: bold;
         width: 20%;
         text-align: center;
@@ -476,6 +488,9 @@ a{
         html{
             font-size: 17px;
         }
+        header, section{
+            margin: 1rem;
+        }
         .main-text{
             margin-top: 0;
             width: 70%;
@@ -510,6 +525,9 @@ a{
         }
         .features .description, .Smart-jackpot .description, .ultimate-features .description{
             width: 80%;
+        }
+        .choose-app-description .description{
+           padding: 1rem .5rem; 
         }
         .features .description p, .Smart-jackpot .description p, .ultimate-features .description p{
             font-size: .7rem;
@@ -564,11 +582,28 @@ a{
         .asked-questions-li-header h4.plus{
             width: 5%;
         }
+        .testimonila{
+            padding: 2rem;
+        }
+        .faq{
+            padding: 0 5rem;
+        }
         .faq li {
             padding: 0;
         }
         .faq li p{
             display: none;
+        }
+        .download-app{
+            padding: 1rem 2rem;
+        }
+        .download-app-header{
+            padding: 0 2rem;
+        }
+        .download-app-header p{
+            padding: 0 2rem;
+            margin-bottom: 1rem;
+            
         }
 
 
@@ -748,6 +783,7 @@ a{
            width: 100%;
         }
         .designed-beauty-header .main-text{
+            display: block;
             width: 30%;
             margin-left: 2rem;
             padding-top: 1.8rem;
@@ -864,10 +900,14 @@ a{
             text-align: left;
             padding-right: .5rem;
         }
+        .download-app{
+            margin: 0;
+        }
         .download-app-header{
             width: 60%;
             flex-grow: 0;
             z-index: 1;
+            padding: 0 2rem;
             
         }
 
@@ -1046,6 +1086,12 @@ a{
         .pricing-annually-month{
             padding: 0 1rem;
         }
+        .designed-beauty{
+            padding-right: 0;
+        }
+        .designed-beauty .main-text{
+            margin: 0;
+        }
         .choose-app-description .description img{
             width: 2.5rem;
             margin-bottom: 1rem;
@@ -1061,7 +1107,7 @@ a{
             padding: 0 ;
         }
 }
-    @media (min-width: 830px){
+    @media (min-width: 930px){
         html{
         font-size:1124px;
         }
@@ -1205,6 +1251,7 @@ a{
       .jackpots-description .description img{
         width: 7rem;
     }
+    
     .jackpots-description .description p{
         font-size: .6rem;
     }
@@ -1300,6 +1347,12 @@ html{
     .choose-app-description .description{
         padding: 1rem .5rem;
     }
+    .designed-beauty{
+        padding-right: 0;
+    }
+    .designed-beauty .main-text{
+        margin: 0;
+    }
     .choose-app-description .description img{
         width: 6rem;
     }
@@ -1362,7 +1415,7 @@ html{
 
 @media(min-width:1400px){
     html{
-      font-size:30px;
+      font-size:28px;
     }
     header main{
         margin-top: 3rem;
